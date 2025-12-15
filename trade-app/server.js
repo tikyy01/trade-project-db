@@ -28,7 +28,7 @@ require("dotenv").config();
 
 
 const PORT = process.env.PORT || 8080;
-require("./app/routes/automobile.routes.js")(app);
+require("./trade-app/app/routes/automobile.routes.js")(app);
 require("./app/routes/brand.routes.js")(app);
 require("./app/routes/client.routes.js")(app);
 require("./app/routes/delivery.routes.js")(app);
